@@ -60,5 +60,31 @@
       bir algoritmanın çalışabilmesi için gerekli koşulların sağlanıp
       sağlanamadığını gösteren bir parametredir.
     </p>
+    <p>
+      Selection Sort En basit sorting algoritmalarından biridir. insertion-sort
+      Verilen örüntüye ait en küçük elemanı buluyor ve en baştaki sayı ile yer
+      değiştiriyor. Peki ya devamı? İkinci en küçük elemanı buluyor ve 2. sıra
+      ile değiştiriyor. Baktın ki 2.sıradaki eleman en küçük hiç dokunma!!!.
+      Hemen 3. sıraya geç. 4, 5 derken dizi bitti. İşte insertion sort'un temel
+      çalışma prensibini öğrendin. big-o-insertion
+    </p>
+    <p>
+      Merge Sort Insertion Sort'da, Big-O gösteriminden dolayı input'um
+      arttığında n2 olduğunda dolayı çalışma zamanı artıyor. Peki daha hızlı bir
+      şekilde sıralama yapılabilir mi? Evet, Merge Sort burada yardımımıza
+      koşuyor. Bir listeyi her adımda parçaya ayırıp tek eleman kalıncaya kadar
+      bölüyor. Böldükten sonra sıralı bir şekilde bize sunuyor (Performans).
+      merge-sort big-o-merge Insertion sort'da, time complexity n2 olduğundan
+      ötürü çalışma zamanımız artıyordu. Merge sort'da ise nlogn olduğu için
+      açık ara performans olarak daha iyi diyebiliriz.
+    </p>
+    <p>
+      Quick Sort Hızlı sıralama günümüzde çok yaygın olarak kullanılan bir
+      sıralama algoritmasıdır. N tane sayıyı average case e göre big-o nlogn,
+      worst case e göre big-o n^2 karmaşıklığı ile sıralanır. QuickSort İlk
+      olarak bir pivot belirler bu pivota göre pivottan küçük ve eşitler sol
+      kısmına, pivottan büyük ve eşitler sağ kısmına yazılır. Parçalanmış
+      kısımlar yeni bir pivot belirlenerek parça pinçik edilir.
+    </p>
   </body>
 </html>
